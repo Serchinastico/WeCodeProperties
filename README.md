@@ -2,13 +2,14 @@
 
 ## Bienvenidos al  taller de Property Based Testing
 
-*Porperty based test* o *test generativos* es una técnica de pruebas adoptada inicialmente por el paradigma de programación funcional.
+*Property based test* o *test generativos* es una técnica de pruebas adoptada inicialmente por el paradigma de programación funcional.
 Tiene dos peculiaridades fundamentales:
 
 1. No tenemos control absoluto de los datos con los que ejercitamos el sistema.
 2. No nos fijamos tanto en el estado de nuestra aplicación como en las propiedades que debe cumplir el mismo.
 
 ## ¿Qué necesito para acudir al taller?
+
 Lo primero de todo es que tengas ganas de aprender y ayudar a tus compis. Tened en cuenta que podemos llegar a ser un grupo numeroso y eso puede dificultar el desarrollo normal de una kata.
 Además pensad en el impacto de la red si todos decidimos descargar todas las librerías y dependencias a la vez. Con la intención de agilizar lo máximo posible y de aprovechar el tiempo he creado proyectos en varios lenguajes para que os sirvan de punto de partida. De este modo no dedicaremos demasiado tiempo a montar un proyecto de cero. Por favor, antes de venir al taller, intentad descargaros el repositorio del lenguaje con el que os sintáis más cómodos y aseguraros de que podéis ejecutar los tests. En el repo de cada proyecto hay información específica.
 A continuación os dejo una lista con las implementaciones que he podido ir haciendo. Si os apetece ampliar la lista con algún otro lenguaje sería taaaan feliz :)
@@ -33,11 +34,11 @@ En esta parte del taller pretendemos familiarizarnos con las librerías, la idea
 * Poner trazas de log para ver cómo ejecuta nuestro test.
 * Configurar el número de veces que queremos ejecutar un test.
 * Ver cómo funciona el shrink haciendo fallar un test y mirando trazas.
-* Hacer generadores custom y comprobar como hacer por filtrado y por modificación
+* Hacer generadores custom y comprobar cómo hacer por filtrado y por modificación
 
 #### Propiedades de algunas funciones/series matemáticas conocidas (5'):
 
-* Cual es la propiedad fundamental de la serie de fibonacci?
+* Cuál es la propiedad fundamental de la serie de fibonacci?
 * Con dicha propiedad tenemos la certeza de que la serie está bien?
 
 #### Determinar las propiedades de las distintas operaciones de una lista (20'):
@@ -52,4 +53,4 @@ En esta parte del taller pretendemos familiarizarnos con las librerías, la idea
 
 Gracias a nuestros amigos de [Karumi](https://www.karumi.com/) por prestarnos su archiconocida kata de los Maxibon. Sois un amor, muchísimas gracias por vuestro curro y vuestro aporte a que el mundillo del desarrollo software sea un lugar un poquito mejor :*
 
-En esta segunda parte del training nos dedicaremos a probar las propiedades de un software ya construido aunuqe con posibles fallos de implemnetación. De esta forma veremos si los test de propiedades nos ayudarían a encontrar algún error no encontrado con otras técnicas de testing más tradicionales
+En esta segunda parte del training nos dedicaremos a probar las propiedades de un software ya construido aunuqe con posibles fallos de implementación. De esta forma veremos si los test de propiedades nos ayudarían a encontrar algún error no encontrado con otras técnicas de testing más tradicionales.
